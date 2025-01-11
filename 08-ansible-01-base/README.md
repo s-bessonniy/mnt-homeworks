@@ -46,13 +46,33 @@
 
 7. При помощи `ansible-vault` зашифруйте факты в `group_vars/deb` и `group_vars/el` с паролем `netology`.
 
+Ответ:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-01-base/screenshots/VirtualBox_Ubuntu-50Gb_11_01_2025_13_58_28.png)
+
 8. Запустите playbook на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь в работоспособности.
+
+Ответ:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-01-base/screenshots/VirtualBox_Ubuntu-50Gb_11_01_2025_14_01_52.png)
 
 9. Посмотрите при помощи `ansible-doc` список плагинов для подключения. Выберите подходящий для работы на `control node`.
 
+Ответ:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-01-base/screenshots/VirtualBox_Ubuntu-50Gb_11_01_2025_14_06_15.png)
+
 10. В `prod.yml` добавьте новую группу хостов с именем  `local`, в ней разместите localhost с необходимым типом подключения.
 
+Ответ:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-01-base/screenshots/VirtualBox_Ubuntu-50Gb_11_01_2025_14_07_41.png)
+
 11. Запустите playbook на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь, что факты `some_fact` для каждого из хостов определены из верных `group_vars`.
+
+Ответ:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-01-base/screenshots/VirtualBox_Ubuntu-50Gb_11_01_2025_14_09_16.png)
 
 12. Заполните `README.md` ответами на вопросы. Сделайте `git push` в ветку `master`. В ответе отправьте ссылку на ваш открытый репозиторий с изменённым `playbook` и заполненным `README.md`.
 
