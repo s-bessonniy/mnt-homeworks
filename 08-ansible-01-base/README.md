@@ -30,7 +30,7 @@
 
 Ответ:
 
-![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-01-base/screenshots/VirtualBox_Ubuntu-50Gb_11_01_2025_13_25_17.png)
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-01-base/screenshots/VirtualBox_Ubuntu-50Gb_11_01_2025_13_48_32.png)
 
 5. Добавьте факты в `group_vars` каждой из групп хостов так, чтобы для `some_fact` получились значения: для `deb` — `deb default fact`, для `el` — `el default fact`.
 
