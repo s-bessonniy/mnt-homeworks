@@ -1,0 +1,11 @@
+services:
+  ubuntu:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ubuntu
+    tty: true
+  centos:
+    image: neubauergroup/centos-python3
+    container_name: centos7
+    tty: true
