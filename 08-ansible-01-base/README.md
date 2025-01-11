@@ -42,7 +42,7 @@
 
 Ответ
 
-![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-01-base/screenshots/VirtualBox_Ubuntu-50Gb_11_01_2025_13_34_43.png)
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-01-base/screenshots/VirtualBox_Ubuntu-50Gb_11_01_2025_13_50_53.png)
 
 7. При помощи `ansible-vault` зашифруйте факты в `group_vars/deb` и `group_vars/el` с паролем `netology`.
 
