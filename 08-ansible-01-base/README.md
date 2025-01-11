@@ -16,13 +16,33 @@
 
 2. Найдите файл с переменными (group_vars), в котором задаётся найденное в первом пункте значение, и поменяйте его на `all default fact`.
 
+Ответ:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-01-base/screenshots/VirtualBox_Ubuntu-50Gb_11_01_2025_11_14_30.png)
+
 3. Воспользуйтесь подготовленным (используется `docker`) или создайте собственное окружение для проведения дальнейших испытаний.
+
+Ответ:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-01-base/screenshots/VirtualBox_Ubuntu-50Gb_11_01_2025_11_55_28.png)
 
 4. Проведите запуск playbook на окружении из `prod.yml`. Зафиксируйте полученные значения `some_fact` для каждого из `managed host`.
 
+Ответ:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-01-base/screenshots/VirtualBox_Ubuntu-50Gb_11_01_2025_13_25_17.png)
+
 5. Добавьте факты в `group_vars` каждой из групп хостов так, чтобы для `some_fact` получились значения: для `deb` — `deb default fact`, для `el` — `el default fact`.
 
+Ответ:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-01-base/screenshots/VirtualBox_Ubuntu-50Gb_11_01_2025_13_37_40.png)
+
 6.  Повторите запуск playbook на окружении `prod.yml`. Убедитесь, что выдаются корректные значения для всех хостов.
+
+Ответ
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-01-base/screenshots/VirtualBox_Ubuntu-50Gb_11_01_2025_13_34_43.png)
 
 7. При помощи `ansible-vault` зашифруйте факты в `group_vars/deb` и `group_vars/el` с паролем `netology`.
 
