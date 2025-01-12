@@ -1,6 +1,7 @@
 ---
 - name: Install Clickhouse
   hosts: clickhouse
+  gather_facts: false
   handlers:
     - name: Start clickhouse service
       become: true
@@ -8,29 +9,64 @@
         name: clickhouse-server
         state: restarted
   tasks:
-    - block:
-        - name: Get clickhouse distrib
+    - name: Clickhouse distrib
+      block:
+        - name: Clickhouse | Get clickhouse distrib
           ansible.builtin.get_url:
-            url: "https://packages.clickhouse.com/rpm/stable/{{ item }}-{{ clickhouse_version }}.noarch.rpm"
-            dest: "./{{ item }}-{{ clickhouse_version }}.rpm"
+            url: "https://packages.clickhouse.com/rpm/stable/{{ item }}-{{ clickhouse_version }}.x86_64.rpm"
+            dest: "./{{ item }}-{{ clickhouse_version }}.x86_64.rpm"
+            mode: "0644"
           with_items: "{{ clickhouse_packages }}"
       rescue:
-        - name: Get clickhouse distrib
+        - name: Clickhouse | Get clickhouse distrib
           ansible.builtin.get_url:
             url: "https://packages.clickhouse.com/rpm/stable/clickhouse-common-static-{{ clickhouse_version }}.x86_64.rpm"
-            dest: "./clickhouse-common-static-{{ clickhouse_version }}.rpm"
+            dest: "./clickhouse-common-static-{{ clickhouse_version }}.x86_64.rpm"
+            mode: "0644"
     - name: Install clickhouse packages
       become: true
       ansible.builtin.yum:
         name:
-          - clickhouse-common-static-{{ clickhouse_version }}.rpm
-          - clickhouse-client-{{ clickhouse_version }}.rpm
-          - clickhouse-server-{{ clickhouse_version }}.rpm
+          - clickhouse-common-static-{{ clickhouse_version }}.x86_64.rpm
+          - clickhouse-client-{{ clickhouse_version }}.x86_64.rpm
+          - clickhouse-server-{{ clickhouse_version }}.x86_64.rpm
       notify: Start clickhouse service
     - name: Flush handlers
-      meta: flush_handlers
+      ansible.builtin.meta: flush_handlers
     - name: Create database
       ansible.builtin.command: "clickhouse-client -q 'create database logs;'"
       register: create_db
-      failed_when: create_db.rc != 0 and create_db.rc !=82
+      failed_when: create_db.rc != 0 and create_db.rc != 82
       changed_when: create_db.rc == 0
+
+- name: Install Vector
+  hosts: vector
+  gather_facts: false
+  handlers:
+    - name: Start vector service
+      become: true
+      ansible.builtin.service:
+        name: vector
+        state: restarted
+  tasks:
+    - name: Create a directory if it does not exist
+      become: true
+      ansible.builtin.file:
+        path: /vector/config/
+        state: directory
+        mode: "0755"
+    - name: Get vector distrib
+      ansible.builtin.get_url:
+        url: "https://packages.timber.io/vector/{{ vector_version }}/vector-{{ vector_version }}-1.x86_64.rpm"
+        dest: "./vector-{{ vector_version }}-1.x86_64.rpm"
+        mode: "0644"
+    - name: Install vector packages
+      become: true
+      ansible.builtin.yum:
+        name: vector-{{ vector_version }}-1.x86_64.rpm
+    - name: Сonfig Vector
+      become: true
+      ansible.builtin.template:
+        src: "/home/s_yaremko/mnt-homeworks/08-ansible-02-playbook/playbook/templates/vector.yml.j2"
+        dest: "/vector/config/vector.yml"
+        mode: "0644"
