@@ -29,8 +29,8 @@
 Ответ:
 
 [site.yml](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-02-playbook/playbook/site.yml)
-[prod.yml]()
-[Clickhouse vars.yml]()
+[prod.yml](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-02-playbook/playbook/inventory/prod.yml)
+[Clickhouse vars.yml](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-02-playbook/playbook/group_vars/clickhouse/vars.yml)
 [Vector vars.yml]()
 [vector.yml.j2]()
 
