@@ -59,4 +59,4 @@
 ![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-04-role/screenshots/VirtualBox_Ubuntu-50Gb_22_02_2025_11_21_23.png)
 
 Прилепляю все файлы:
-[re](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-04-role/playbook/requirements.yml)
+[requirements.yml](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-04-role/playbook/requirements.yml) [site.yml](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-04-role/playbook/site.yml)
