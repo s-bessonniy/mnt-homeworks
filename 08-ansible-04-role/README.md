@@ -44,3 +44,13 @@
 Выполненное домашнее задание пришлите в виде ссылки на .md-файл в вашем репозитории.
 
 ---
+
+### Ответ на Задание
+
+1.Создал файл requirements.yml
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-04-role/screenshots/VirtualBox_Ubuntu-50Gb_22_02_2025_10_50_52.png)
+
+При помощи `ansible-galaxy` скачайте себе эту все необходимые роли.
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/08-ansible-04-role/screenshots/VirtualBox_Ubuntu-50Gb_22_02_2025_10_48_14.png)
