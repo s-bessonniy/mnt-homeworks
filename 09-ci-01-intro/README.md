@@ -1,4 +1,4 @@
-# Домашнее задание к занятию 7 «Жизненный цикл ПО»
+# Домашнее задание к занятию 7 «Жизненный цикл ПО» - Сергей Яремко
 
 ## Подготовка к выполнению
 
@@ -43,3 +43,23 @@
 Выполненное домашнее задание пришлите в виде ссылки на .md-файл в вашем репозитории.
 
 ---
+
+## Ответ на задание
+
+Это чего то я наделал:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-01-intro/screenshots/02Снимок_2025-03-01_133727_insommnia.atlassian.net.png)
+
+Схема жуков:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-01-intro/screenshots/01Снимок_2025-03-01_133625_insommnia.atlassian.net.png)
+
+Схема остальных насекомых:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-01-intro/screenshots/02Снимок_2025-03-01_133727_insommnia.atlassian.net.png)
+
+Файлы:
+
+[bugs](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-01-intro/Bug.xml)
+
+[others](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-01-intro/Others.xml)
