@@ -79,3 +79,16 @@ http//:192.168.10.9:8081
 
 ![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/screenshots/VirtualBox_%20Ubuntu_vm1_02_03_2025_12_40_38.png)
 
+И так, создаем проект:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/screenshots/VirtualBox_%20Ubuntu_vm1_02_03_2025_13_18_46.png)
+
+Ошалеть, пока работает:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/screenshots/VirtualBox_%20Ubuntu_vm1_02_03_2025_13_22_21.png)
+
+Меняем условие сборки:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/screenshots/VirtualBox_%20Ubuntu_vm1_02_03_2025_13_48_12.png)
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/screenshots/VirtualBox_%20Ubuntu_vm1_02_03_2025_14_03_11.png)
