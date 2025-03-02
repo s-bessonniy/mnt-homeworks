@@ -100,3 +100,11 @@ Nexus:
 Мигрировал:
 
 ![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/screenshots/VirtualBox_%20Ubuntu_vm1_02_03_2025_16_21_27.png)
+
+Объеденил ветки:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/screenshots/VirtualBox_Ubuntu-50Gb_02_03_2025_21_44_44.png)
+
+Вроде работает:
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/screenshots/VirtualBox_%20Ubuntu_vm1_02_03_2025_21_47_50.png)
