@@ -61,11 +61,21 @@ docker run -e SERVER_URL=http://192.168.10.4:8111 --name="teamcity-agent" -d jet
 
 Проверяем, РАБОТАЕТ. Хоть что то у меня заработало с первого раза:
 
-В огленной лисе вводим:
+В огненной лисе вводим:
 
 ```
 http//:192.168.10.4:8111
 ```
 
 ![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/screenshots/VirtualBox_%20Ubuntu_vm1_02_03_2025_10_52_51.png)
+
+Nexus будет стоят на виртуалке с УБУНТОЙ (почему тут все на Центосе?)) с айпишником 198.168.10.9. Наверное в комментах полно такого "У МЕНЯ НЕ РАБОТАЕТ":
+
+В огненной лисе виртуалки за нумером 198.168.10.7 вводим:
+
+```
+http//:192.168.10.9:8081
+```
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/screenshots/VirtualBox_%20Ubuntu_vm1_02_03_2025_12_40_38.png)
 
