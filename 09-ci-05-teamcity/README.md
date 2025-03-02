@@ -50,3 +50,22 @@ docker run --name="teamcity-server" -d -p 8111:8111 jetbrains/teamcity-server
 ```
 
 ![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/screenshots/VirtualBox_Ubuntu-50Gb_02_03_2025_10_34_03.png)
+
+Далее подготовил агента командугород:
+
+```
+docker run -e SERVER_URL=http://192.168.10.4:8111 --name="teamcity-agent" -d jetbrains/teamcity-agent
+```
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/screenshots/VirtualBox_%20Ubuntu_vm1_02_03_2025_10_48_50.png)
+
+Проверяем, РАБОТАЕТ. Хоть что то у меня заработало с первого раза:
+
+В огленной лисе вводим:
+
+```
+http//:192.168.10.4:8111
+```
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/screenshots/VirtualBox_%20Ubuntu_vm1_02_03_2025_10_52_51.png)
+
