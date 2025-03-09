@@ -102,7 +102,6 @@ P.S.: если при запуске некоторые контейнеры б�
 [[inputs.docker]]
   endpoint = "unix:///var/run/docker.sock"
 ```
-
 Дополнительно вам может потребоваться донастройка контейнера telegraf в `docker-compose.yml` дополнительного volume и 
 режима privileged:
 ```
@@ -122,6 +121,10 @@ P.S.: если при запуске некоторые контейнеры б�
 
 После настройке перезапустите telegraf, обновите веб интерфейс и приведите скриншотом список `measurments` в 
 веб-интерфейсе базы telegraf.autogen . Там должны появиться метрики, связанные с docker.
+#
+##Ответ
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/10-monitoring-02-systems/screenshots/VirtualBox_Ubuntu-50Gb_09_03_2025_13_12_07.png)
 
 Факультативно можете изучить какие метрики собирает telegraf после выполнения данного задания.
 
