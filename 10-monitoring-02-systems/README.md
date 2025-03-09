@@ -93,6 +93,9 @@ P.S.: если при запуске некоторые контейнеры б�
 
 Для выполнения задания приведите скриншот с отображением метрик утилизации cpu из веб-интерфейса.
 #
+## Ответ
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/10-monitoring-02-systems/screenshots/VirtualBox_Ubuntu-50Gb_09_03_2025_12_55_27.png)
+#
 9. Изучите список [telegraf inputs](https://github.com/influxdata/telegraf/tree/master/plugins/inputs). 
 Добавьте в конфигурацию telegraf следующий плагин - [docker](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/docker):
 ```
