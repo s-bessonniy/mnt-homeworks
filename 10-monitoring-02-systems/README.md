@@ -81,6 +81,9 @@
 P.S.: если при запуске некоторые контейнеры будут падать с ошибкой - проставьте им режим `Z`, например
 `./data:/var/lib:Z`
 #
+## Ответ
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/10-monitoring-02-systems/screenshots/VirtualBox_Ubuntu-50Gb_09_03_2025_12_46_11.png)
+#
 8. Перейдите в веб-интерфейс Chronograf (http://localhost:8888) и откройте вкладку Data explorer.
         
     - Нажмите на кнопку Add a query
