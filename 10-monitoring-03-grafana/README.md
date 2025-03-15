@@ -66,7 +66,19 @@ node_load5
 ```
 node_load15
 ```
-![]()
+
+- количество свободной оперативной памяти;
+
+```
+node_memory_MemFree_bytes/(1024*1024)
+```
+
+- количество места на файловой системе.
+
+```
+node_filesystem_free_bytes{fstype!~"tmpfs"}
+```
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/10-monitoring-03-grafana/screenshots/VirtualBox_Ubuntu-50Gb_15_03_2025_11_54_10.png)
 
 ## Задание 3
 
