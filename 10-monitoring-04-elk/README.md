@@ -1,4 +1,4 @@
-# Домашнее задание к занятию 15 «Система сбора логов Elastic Stack»
+# Домашнее задание к занятию 15 «Система сбора логов Elastic Stack» - Сергей Яремко
 
 ## Дополнительные ссылки
 
@@ -43,6 +43,18 @@ Filebeat следует сконфигурировать для отправки
 - скриншот интерфейса kibana;
 - docker-compose манифест (если вы не использовали директорию help);
 - ваши yml-конфигурации для стека (если вы не использовали директорию help).
+
+## Ответ на Задание 1
+
+- скриншот `docker ps` через 5 минут после старта всех контейнеров (их должно быть 5);
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/10-monitoring-04-elk/screenshots/VirtualBox_Ubuntu-50Gb_15_03_2025_13_00_10.png)
+
+- скриншот интерфейса kibana;
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/10-monitoring-04-elk/screenshots/VirtualBox_Ubuntu-50Gb_15_03_2025_12_59_37.png)
+
+Я использовал директорию help
 
 ## Задание 2
 
