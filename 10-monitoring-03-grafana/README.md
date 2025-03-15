@@ -85,6 +85,10 @@ node_filesystem_free_bytes{fstype!~"tmpfs"}
 1. Создайте для каждой Dashboard подходящее правило alert — можно обратиться к первой лекции в блоке «Мониторинг».
 1. В качестве решения задания приведите скриншот вашей итоговой Dashboard.
 
+### Ответ на Задание 3
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/10-monitoring-03-grafana/screenshots/VirtualBox_Ubuntu-50Gb_15_03_2025_12_20_13.png)
+
 ## Задание 4
 
 1. Сохраните ваш Dashboard.Для этого перейдите в настройки Dashboard, выберите в боковом меню «JSON MODEL». Далее скопируйте отображаемое json-содержимое в отдельный файл и сохраните его.
