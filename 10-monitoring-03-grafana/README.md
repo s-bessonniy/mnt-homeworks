@@ -26,6 +26,10 @@
 1. Подключите поднятый вами prometheus, как источник данных.
 1. Решение домашнего задания — скриншот веб-интерфейса grafana со списком подключенных Datasource.
 
+### Ответ на Задание 1
+
+![](https://github.com/s-bessonniy/mnt-homeworks/blob/MNT-video/10-monitoring-03-grafana/screenshots/VirtualBox_Ubuntu-50Gb_15_03_2025_11_09_14.png)
+
 ## Задание 2
 
 Изучите самостоятельно ресурсы:
