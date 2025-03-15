@@ -55,6 +55,18 @@
 100-(avg by (instance) (rate(node_cpu_seconds_total{job="nodeexporter",mode="idle"}[1m]))*100)
 ```
 
+- CPULA 1/5/15;
+
+```
+node_load1
+```
+```
+node_load5
+```
+```
+node_load15
+```
+![]()
 
 ## Задание 3
 
